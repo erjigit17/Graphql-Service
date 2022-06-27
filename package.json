@@ -1,0 +1,20 @@
+{
+  "name": "graphql-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erjigit17/Graphql-Service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erjigit17/Graphql-Service/issues"
+  },
+  "homepage": "https://github.com/erjigit17/Graphql-Service#readme"
+}
