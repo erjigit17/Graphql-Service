@@ -3,7 +3,7 @@ import { TypeUser, TypeUserBody, iUserDataSource } from './types';
 export const resolvers = {
 
   Query: {
-    user: (_: undefined,
+    getUser: (_: undefined,
            { _id }: { _id: string },
            { dataSources }: { dataSources: iUserDataSource }): TypeUser => {
       return dataSources.userAPI.getUser(_id);

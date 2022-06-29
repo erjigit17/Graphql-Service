@@ -39,7 +39,7 @@ variables
 getUserById
 ```graphql
 query Query($_id: ID!) {
-    user(_id: $_id) {
+    getUser(_id: $_id) {
         firstName
     }
 }

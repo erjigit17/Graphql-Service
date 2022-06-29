@@ -1,8 +1,8 @@
 import { gql } from 'apollo-server';
 
-export const typeDefs = gql`
-    type Query {
-        user(_id: ID!): User
+export const typeDef = gql`
+    extend type Query {
+        getUser(_id: ID!): User
     }
 
     type User {
@@ -24,7 +24,7 @@ export const typeDefs = gql`
         jwt: String!
     }
 
-    type Mutation {
+    extend type Mutation {
         register(body: UserBody): User
         login(email: String!, password: String!): JWT
     }
